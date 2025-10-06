@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelPrint", "LabelPrint\LabelPrint.csproj", "{4DA71271-FFD7-4978-8D95-130001B04DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA71271-FFD7-4978-8D95-130001B04DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA71271-FFD7-4978-8D95-130001B04DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA71271-FFD7-4978-8D95-130001B04DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA71271-FFD7-4978-8D95-130001B04DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB40DD34-FA29-4384-A94C-A45926B1DEAB}
+	EndGlobalSection
+EndGlobal

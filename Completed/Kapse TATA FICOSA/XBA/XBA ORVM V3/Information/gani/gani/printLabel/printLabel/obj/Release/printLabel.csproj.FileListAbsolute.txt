@@ -1,0 +1,2 @@
+D:\printLabel\printLabel\obj\Release\printLabel.csproj.AssemblyReference.cache
+D:\printLabel\printLabel\obj\Release\printLabel.csproj.CoreCompileInputs.cache

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\..\printLabel\printLabel\bin\Debug\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="KeepAutomation.Barcode.RDLC">
+      <HintPath>..\..\printLabel\printLabel\bin\Debug\KeepAutomation.Barcode.RDLC.dll</HintPath>
+    </Reference>
+    <Reference Include="KeepAutomation.Barcode.Windows">
+      <HintPath>..\..\printLabel\printLabel\bin\Debug\KeepAutomation.Barcode.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintRaw">
+      <HintPath>..\..\printLabel\printLabel\bin\Debug\PrintRaw.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

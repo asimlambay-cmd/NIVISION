@@ -1,0 +1,2 @@
+D:\PrintLogLabel\PrintLogLabel\obj\Release\PrintLogLabel.csproj.AssemblyReference.cache
+D:\PrintLogLabel\PrintLogLabel\obj\Release\PrintLogLabel.csproj.CoreCompileInputs.cache
