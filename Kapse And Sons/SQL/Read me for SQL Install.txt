@@ -1,0 +1,2 @@
+1. First install "SQL2022-SSEI-Expr".(internet required)= https://www.microsoft.com/en-us/download/details.aspx?id=104781
+2. second install "SSMS-Setup-ENU".use this link https://aka.ms/ssmsfullsetup
