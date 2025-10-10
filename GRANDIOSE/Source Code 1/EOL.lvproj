@@ -220,7 +220,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{0FD93F97-5F57-4CE6-9E3E-263FA14DA161}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GDM.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GDM/GDM.exe</Property>
@@ -230,7 +230,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GDM/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Source Code 1/Data/NiVision_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AC1690E0-A22C-4AB3-9DB5-8D585171F539}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88627F45-C202-4495-BAFD-AB64B2B465BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Source Code 1/Front_Panel/Main.vi</Property>
@@ -240,6 +240,10 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Source Code 1/Front_Panel/BASE_Create Login.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Source Code 1/Front_Panel/Recipe_Creator.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Source Code 1/Front_Panel/BASE_Login Screen.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -280,7 +284,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Source Code 1/SubVi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">GDM</Property>
 				<Property Name="TgtF_internalName" Type="Str">GDM</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
