@@ -22,7 +22,6 @@
 		<Item Name="Source Code 1" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="PLC_Simulation.vi" Type="VI" URL="../../../../../NI Vision/GRANDIOSE/Source Code 1/TestVi/PLC_Simulation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>

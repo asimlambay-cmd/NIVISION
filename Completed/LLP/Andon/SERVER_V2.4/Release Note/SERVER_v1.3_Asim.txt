@@ -1,0 +1,41 @@
+LLP project.
+Change Done by ASIM LAMBAY
+
+version server V1.3
+
+A. PLC_Main.vi
+
+"PLC communication" loop
+1. 4 dummy PLC program VI Added(AB_PLC_Testing.VI).
+2. new 3rd register readed for all 10 PLC's. This 3rd register used for Product Code.
+3.PLC_RCV queue tool 4 new plc array added.
+
+"DATA PROCESSING AND SEND TO SAVE" loop
+1. "Read Inputs"--- NO chnage Done
+2.  "Process Inputs"---No chnage done.
+3.  "Generate Log Trigger"---Input variable added in unbundle by Name from 3rd register is used for "Product Code".
+4. Queue--PLC_SAVE. cluster chnaged. Product code variable added. 
+
+
+
+B. PLC_trigger_GEN.vi
+1. Product Code variable added.
+
+
+
+C.PLC_SAVE_EVENTS.vi
+1. Queue--PLC_SAVE. cluster chnaged. Product code variable added. 
+
+"Save_Event" loop
+1."Product Code" variable added in unbundle by name.
+2."_OK" case stucture Product code variable added.
+3."_NOK" case stucture Product code variable added.
+
+
+
+D. Demo_OK_Count.vi
+1. "PRODUCT_CODE" added in sql database table.
+
+
+E. Demo_NOK_Count.vi
+1. "PRODUCT_CODE" added in sql database table.

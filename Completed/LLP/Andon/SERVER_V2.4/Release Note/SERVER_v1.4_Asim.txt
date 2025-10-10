@@ -1,0 +1,27 @@
+LLP project.
+Change Done by ASIM LAMBAY on 17-06-2023 to date
+
+version Server_V1.4
+
+Main changes:- All 10 PLC of Allen Bradley..and ethernet protocol used.
+
+PLC_Event.vi --->
+
+ Demo_NOK_Count_part.vi
+ A) Need to ADD "Product Code" table in.
+
+ Demo_OK_Count_part.vi
+ A) Need to ADD "Product Code" table in.
+
+ PLC_Main_COMMUNICATION.VI
+ A) Need to Create new table for "ALARM_STATUS".
+
+
+SQL-->
+A)Need to remove "dbo.Test.Table" from SQL.(no USE FOUND)
+
+
+
+VI Moved--->
+1)."sql time log.vi" ("Front Panel" folder to "OLD test vi" folder).
+1)."PLC_Main.vi" ("Front Panel" folder to "OLD test vi" folder).
